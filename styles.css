@@ -11,6 +11,10 @@ body {
   color: #333;
 }
 
+#hero h2 {
+font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #header {
   position: fixed;
   top: 0; 
