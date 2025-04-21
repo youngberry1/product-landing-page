@@ -7,12 +7,11 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f5f7fa;
-  color: #333;
-}
+  background-color: #121212;
+  color: #e0e0e0;
 
 #hero h2 {
-font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:  'Arial Narrow Bold', sans-serif;
 }
 
 #header {
@@ -20,13 +19,13 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   top: 0; 
   width: 100%;
   z-index: 1000;
-  background-color: #1e1e2f;
-  color: white;
+  background-color: #1e1e2f; 
+  color: #ffffff; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  transition: top 0.5s ease; /* Smooth transition for hiding and showing */
+  transition: top 0.5s ease;
 }
 
 #header-img {
@@ -58,7 +57,8 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-top: 100px;
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(to bottom, #ffffff, #e3f2fd);
+  background: linear-gradient(to bottom, #1c1c1c, #2a2a2a); /* Darker gradient for night mode */
+  color: #e0e0e0;
 }
 
 #hero h1 {
@@ -79,7 +79,7 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 #features {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-color: #1c1c1c;
   text-align: center;
 }
 
@@ -92,11 +92,12 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .feature {
-  background: #f0f4f8;
+  background: #2a2a2a; 
   padding: 20px;
   border-radius: 8px;
   width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  color: #e0e0e0; 
 }
 
 .feature h3 {
@@ -105,7 +106,7 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 #how-it-works {
   padding: 60px 20px;
-  background-color: #e8f0fe;
+  background-color: #1c1c1c;
   text-align: center;
 }
 
@@ -116,7 +117,7 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 #testimonials {
   padding: 60px 20px;
-  background-color: #f5f7fa;
+  background-color: #1c1c1c; 
 }
 
 #testimonials h2 {
@@ -126,19 +127,20 @@ font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 #testimonials blockquote {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #ffffff;
+  background-color: #2a2a2a; 
   padding: 20px;
   margin: 20px auto;
   max-width: 600px;
   border-left: 5px solid #1e88e5;
   font-style: italic;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  color: #e0e0e0;
 }
 
 #signup {
   padding: 60px 20px;
   background: #1e1e2f;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
